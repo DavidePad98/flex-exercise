@@ -173,6 +173,7 @@ p {
     width: 100%;
     border-radius: 0;
     height: 150px;
+    flex-wrap: nowrap;
   }
 
   #nav {
@@ -181,7 +182,7 @@ p {
   }
 
   #scompare {
-    visibility: hidden;
+    display: none;
   }
   #title {
     display: flex;
